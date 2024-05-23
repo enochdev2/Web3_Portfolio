@@ -52,8 +52,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["Javascript","ReactJS", "NextJS", "Express", "Typescript"];
+  const rightLists = ["Solidity", "Rust",];
 
   const [copied, setCopied] = useState(false);
 
@@ -143,7 +143,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-2 md:gap-2 lg:gap-4">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
