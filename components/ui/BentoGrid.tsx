@@ -35,7 +35,7 @@ export const BentoGrid = ({
 export const BentoGridItem = ({
   className,
   id,
-  title,
+  title, 
   description,
   //   remove unecessary things here
   img,
@@ -52,8 +52,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["Javascript","ReactJS", "NextJS", "Express", "Typescript"];
-  const rightLists = ["Solidity", "Rust",];
+  const leftLists = [ "Css", "Tailwind", "Javascript","ReactJS", "NextJS", ];
+  const rightLists = ["Solidity", "Rust", "Express", "Typescript"];
 
   const [copied, setCopied] = useState(false);
 
@@ -67,7 +67,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "enochpromise.va@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -140,7 +140,7 @@ export const BentoGridItem = ({
           {id === 2 && <GridGlobe />}
 
           {/* Tech stack list div */}
-          {id === 3 && (
+          {id === 5 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* tech stack lists */}
               <div className="flex flex-col gap-2 md:gap-2 lg:gap-4">
@@ -161,7 +161,7 @@ export const BentoGridItem = ({
                   <span
                     key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    lg:opacity-100 rounded-lg text-center  bg-[#10132E]"
                   >
                     {item}
                   </span>
