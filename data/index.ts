@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "Token Swap MarketPlace",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Token Swap Marketplace: A streamlined Ethereum-powered DApp enabling instant, secure token exchanges with smart contract integrity, uniting token holders worldwide.",
     img: "/proj.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://token-swap-marketplace.vercel.app",
@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 2,
     title: "CrowdFunding decentralize Platform",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "A Ethereum-based crowdfunding DApp offering secure, transparent funding via smart contracts, connecting creators with global supporters.",
     img: "/proj2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://crowd-funding-enoch.vercel.app",
@@ -89,7 +89,7 @@ export const projects = [
   {
     id: 3,
     title: "Liquidity MarketPlace and ICO Dapp",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: " A dynamic Ethereum-based DApp facilitating seamless liquidity provision and token swaps, bolstered by smart contract security.",
     img: "/proj3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://liquidity-and-ico-dapp.vercel.app",
@@ -97,7 +97,7 @@ export const projects = [
   {
     id: 4,
     title: "Decentralized Event MarketPlace",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "A Ethereum-based DApp revolutionizing event ticketing and engagement, offering secure, peer-to-peer transactions with smart contract assurance.",
     img: "/proj4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://dapp-event.vercel.app",
